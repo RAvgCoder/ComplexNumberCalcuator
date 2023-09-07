@@ -2,25 +2,12 @@
 // Created by egbor on 2023-09-07.
 //
 
-#include "Complex.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <stdbool.h>
 #include <ctype.h>
-#include <limits.h>
 
-typedef enum Operator {
-    ADD, SUB
-} Operator;
-
-typedef struct Complex {
-    int real;
-    Operator operator;
-    int imaginary;
-    char term;
-    bool isSquared;
-} Complex;
+#include "Complex.h"
 
 // --------------- Addition -----------------//
 

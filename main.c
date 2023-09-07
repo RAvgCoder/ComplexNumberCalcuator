@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "Complex.h"
+#include <stdio.h>
 
 int main() {
 
@@ -23,6 +23,5 @@ int main() {
     toString(productImaginary(&first,&second));
     printf("-------------------\n");
     toString(productComplex(&first,&second));
-
 
 }
